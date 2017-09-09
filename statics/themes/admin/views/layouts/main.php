@@ -23,18 +23,18 @@ $allMenus = Menu::getMenu();
     <?= Html::csrfMetaTags() ?>
     <title><?= Yii::$app->params['basic']['sitename'].' - '.Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-    <link href="/statics/themes/admin/css/style.css" rel="stylesheet">
+    <link href="/yii2-rbac/statics/themes/admin/css/style.css" rel="stylesheet">
 <body>
 <?php $this->beginBody() ?>
 
 <div class="left-side sticky-left-side">
 
     <div class="logo">
-        <a href="index.html"><img src="/statics/themes/admin/images/logo.png" alt=""></a>
+        <a href="index.html"><img src="/yii2-rbac/statics/themes/admin/images/logo.png" alt=""></a>
     </div>
 
     <div class="logo-icon text-center">
-        <a href="index.html"><img src="/statics/themes/admin/images/logo_icon.png" alt=""></a>
+        <a href="index.html"><img src="/yii2-rbac/statics/themes/admin/images/logo_icon.png" alt=""></a>
     </div>
 
     <div class="left-side-inner">
@@ -135,7 +135,7 @@ $allMenus = Menu::getMenu();
     $menuItems = [];
     if (!\Yii::$app->user->isGuest) {
         $menuItems[] = '<li class="dropdown notification-menu">'
-            . '<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="/statics/themes/admin/images/user-avatar.png" alt="" />'
+            . '<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="/yii2-rbac/statics/themes/admin/images/user-avatar.png" alt="" />'
             . Yii::$app->user->identity->username
             . '<span class="caret"></span></a>'
             . '<ul class="dropdown-menu dropdown-menu-usermenu pull-right" role="menu">'
@@ -176,9 +176,9 @@ $allMenus = Menu::getMenu();
 </div>
 
 <?php $this->endBody() ?>
-<script src="/statics/themes/admin/js/jquery-ui-1.9.2.custom.min.js"></script>
-<script src="/statics/themes/admin/js/jquery.nicescroll.js"></script>
-<script src="/statics/themes/admin/js/scripts.js"></script>
+<script src="/yii2-rbac/statics/themes/admin/js/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="/yii2-rbac/statics/themes/admin/js/jquery.nicescroll.js"></script>
+<script src="/yii2-rbac/statics/themes/admin/js/scripts.js"></script>
 </body>
 </html>
 <?php $this->endPage() ?>

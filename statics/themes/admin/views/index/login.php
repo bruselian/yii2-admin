@@ -17,7 +17,7 @@ $this->title = '管理员登录';
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-    <link href="/statics/themes/admin/css/style.css" rel="stylesheet">
+    <link href="/yii2-rbac/statics/themes/admin/css/style.css" rel="stylesheet">
 </head>
 
 <body class="login-body">
@@ -32,7 +32,7 @@ $this->title = '管理员登录';
 
     <div class="form-signin-heading text-center">
         <h1 class="sign-title">Sign In</h1>
-        <img src="/statics/themes/admin/images/login-logo.png" alt=""/>
+        <img src="/yii2-rbac/statics/themes/admin/images/login-logo.png" alt=""/>
     </div>
     <div class="login-wrap">
         <?= $form->field($model, 'username', ['template' => '<div class="form-group field-loginform-password required">{input}{hint}{error}</div>'])->textInput(['autofocus' => true, 'placeholder' => '用户名']) ?>

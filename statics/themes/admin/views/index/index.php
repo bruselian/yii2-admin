@@ -78,7 +78,7 @@ Yii::$app->db->open();
                 </tr>
                 <tr>
                     <td>捐赠</td>
-                    <td>如果您使用本系统而受益或者感到愉悦, 您可以扫码支付帮助它成长~ <img src="/statics/themes/admin/images/qrcode.png" alt=""></td>
+                    <td>如果您使用本系统而受益或者感到愉悦, 您可以扫码支付帮助它成长~ <img src="/yii2-rbac/statics/themes/admin/images/qrcode.png" alt=""></td>
                 </tr>
             </tbody>
         </table>
