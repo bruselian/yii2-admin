@@ -4,7 +4,7 @@ Yii-admin 是使用Yii2开发的一个后台管理系统
 其它功能正在开发中...
 
 安装:     
-	1、下载源文件或git clone https://github.com/bruselian/yii2-admin.git 
+	1、下载源文件或git clone https://github.com/qiaohongbo/yii2-admin.git     
 	2、composer install     
 	3、common/config/main.php #配置数据库      
 	4、Nginx和Apache配置，并设置hosts文件     
@@ -13,11 +13,11 @@ Yii-admin 是使用Yii2开发的一个后台管理系统
 	管理员密码：123456     
 	
 预览：
-![image](https://github.com/bruselian/yii2-admin/blob/master/statics/images/01.png)
-![image](https://github.com/bruselian/yii2-admin/blob/master/statics/images/02.png)
-![image](https://github.com/bruselian/yii2-admin/blob/master/statics/images/03.png)
-![image](https://github.com/bruselian/yii2-admin/blob/master/statics/images/04.png)
-![image](https://github.com/bruselian/yii2-admin/blob/master/statics/images/05.png)
+![image](https://github.com/qiaohongbo/yii2-admin/blob/master/statics/images/01.png)
+![image](https://github.com/qiaohongbo/yii2-admin/blob/master/statics/images/02.png)
+![image](https://github.com/qiaohongbo/yii2-admin/blob/master/statics/images/03.png)
+![image](https://github.com/qiaohongbo/yii2-admin/blob/master/statics/images/04.png)
+![image](https://github.com/qiaohongbo/yii2-admin/blob/master/statics/images/05.png)
 
 
 
